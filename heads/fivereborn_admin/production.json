@@ -1,7 +1,7 @@
 {
-  "x-amz-meta-bootstrap-version": "1000061",
-  "x-amz-meta-bootstrap-size": "5109152",
-  "x-amz-meta-bootstrap-object": "0076aaa6285bfa690164d790578d0df476994a4062cb386e9110c71a0a58faf5",
-  "x-amz-meta-branch-version": "1786633586",
-  "x-amz-meta-branch-manifest": "712ebe9723d18df3e011b4150ae8dd3786e03a9c1275364066322e8173d72e4d"
+  "x-amz-meta-bootstrap-version": "1000062",
+  "x-amz-meta-bootstrap-size": "5109168",
+  "x-amz-meta-bootstrap-object": "e65f4d1f35567f562d81e4ee45761822dd2b6ac57623a6380790c52646af65c9",
+  "x-amz-meta-branch-version": "1786639053",
+  "x-amz-meta-branch-manifest": "ea5329752e33cdc171888bfea645d9eadfd0f5456bffc0a7062e1e9cc2d98ffa"
 }
