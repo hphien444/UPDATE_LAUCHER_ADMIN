@@ -1,0 +1,28 @@
+WESTSIDE ADMIN - BO KHOI CHAY GIAO DIEN GAMING
+
+Chi can gui WESTSIDE_ADMIN_BOOTSTRAP_GAMING_20261015.exe sang may khac.
+Mo EXE: giao dien WESTSIDE hien tien trinh tai, kiem tra SHA256, giai nen va mo launcher.
+Khong chay CMD. Khong can gui ZIP hay thu muc kem theo EXE.
+Bo client day du: 297.990.800 byte; tai tu GitHub qua HTTPS.
+Cac lan sau: kiem tra va dung lai bo client da cai, khong tai lai neu tep khop.
+Giao dien launcher gaming ben trong duoc giu nguyen; khong sua runtime EAC da ky.
+Bam X se hoi xac nhan; huy tai khong xoa bo client cu.
+
+YEU CAU
+Windows 10/11 x64, .NET Framework 4.5 tro len (Windows hien dai thuong da co), Internet, it nhat 1,2 GB o trong va GTA V hop le.
+Bootstrap khong yeu cau quyen admin. EAC chinh thuc co the can quyen cai dich vu.
+EXE chua co chu ky Authenticode; khong tat SmartScreen/antivirus de bo qua canh bao.
+
+VI TRI
+%LOCALAPPDATA%\WESTSIDE_ADMIN_EAC\client_50d9b7adf47d\
+Log: %LOCALAPPDATA%\WESTSIDE_ADMIN_EAC\bootstrap-gui-*.log
+
+PHAM VI
+Ban nay tai nguyen bo EAC TEST hien co; khong tuyen bo da fix Epic/token/Untrusted hoac da xac minh EAC bao ve gameplay. Epic van co the yeu cau dang nhap.
+Day la bo tai full theo phien ban da duyet, khong thay metadata native updater production.
+Khong tu lay ban runtime moi trong tuong lai ngoai goi da ghim.
+
+LINK BO CLIENT FULL
+https://github.com/hphien444/UPDATE_LAUCHER_ADMIN/releases/download/westside-admin-full-eac-diagnostics-20261015/WESTSIDE_ADMIN_BOOTSTRAP_FULL_KEM_KIEM_TRA_EAC_20261015.zip
+
+SHA256 EXE: eea9121d623f70137844032bc08cd130f389e02c7227fb3606a77802ede020c4
