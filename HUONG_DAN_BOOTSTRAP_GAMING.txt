@@ -1,11 +1,14 @@
 WESTSIDE ADMIN - BO KHOI CHAY GIAO DIEN GAMING
 
-Chi can gui WESTSIDE_ADMIN_BOOTSTRAP_GAMING_R3_20261015.exe sang may khac.
+Chi can gui WESTSIDE_ADMIN_BOOTSTRAP_GAMING_R4_20261015.exe sang may khac.
 Mo EXE: giao dien WESTSIDE hien tien trinh tai, kiem tra SHA256, giai nen va mo launcher.
 Khong chay CMD. Khong can gui ZIP hay thu muc kem theo EXE.
 Bo client day du: 297.990.800 byte; tai tu GitHub qua HTTPS.
 Cac lan sau: kiem tra va dung lai bo client da cai, khong tai lai neu tep khop.
-Ban R3: them chan doan rieng cho loi khoi dong, khong chi bao ma thoat1.
+Ban R4: sua loi Windows 740 da tai hien khi mo client tu quyen thuong.
+Giao dien tai/chuan bi van chay quyen thuong. Bo client da ky hien tai yeu cau Admin.
+Luc mo launcher, Windows co the hoi quyen; chi chon Co neu ban dong y mo WESTSIDE.
+Neu chon Khong, bootstrap giu thong bao huy cap quyen; khong tu hoi lai.
 Neu van loi, bam Sao chep loi va dan bao cao cho nguoi ho tro.
 Bao cao chi gom su kien va ma so da loc; khong sao chep token/log tho.
 Nhan dien them native .app va dua hop thoai chon GTA/loi cua client ra truoc.
@@ -18,7 +21,7 @@ Bam X se hoi xac nhan; huy tai khong xoa bo client cu.
 
 YEU CAU
 Windows 10/11 x64, .NET Framework 4.5 tro len (Windows hien dai thuong da co), Internet, it nhat 5 GB o trong (gom cache game tai lan dau) va GTA V hop le.
-Bootstrap khong yeu cau quyen admin. EAC chinh thuc co the can quyen cai dich vu.
+Bootstrap GUI khong yeu cau quyen admin de tai/cai. Client da ky hien tai bat buoc quyen Admin; Windows UAC la xac nhan binh thuong, khong tat UAC hay antivirus.
 EXE chua co chu ky Authenticode; khong tat SmartScreen/antivirus de bo qua canh bao.
 
 VI TRI
@@ -26,7 +29,9 @@ VI TRI
 Log: %LOCALAPPDATA%\WESTSIDE_ADMIN_EAC\bootstrap-gui-*.log
 
 PHAM VI
-Ban nay chua xac dinh/xac nhan sua xong loi exit1 tren may khach.
+Da tai hien wrapper exit1/Win32 740 tren may kiem thu khi chay quyen thuong.
+Ban R4 xu ly dung yeu cau quyen cua client, khong bo qua EAC hay doi file da ky.
+Chua xac nhan moi nguyen nhan exit1 tren may khach deu da duoc sua.
 Ban nay tai nguyen bo EAC TEST hien co; khong tuyen bo da fix Epic/token/Untrusted hoac da xac minh EAC bao ve gameplay. Epic van co the yeu cau dang nhap.
 Day la bo tai full theo phien ban da duyet, khong thay metadata native updater production.
 Khong tu lay ban runtime moi trong tuong lai ngoai goi da ghim.
@@ -34,4 +39,4 @@ Khong tu lay ban runtime moi trong tuong lai ngoai goi da ghim.
 LINK BO CLIENT FULL
 https://github.com/hphien444/UPDATE_LAUCHER_ADMIN/releases/download/westside-admin-full-eac-diagnostics-20261015/WESTSIDE_ADMIN_BOOTSTRAP_FULL_KEM_KIEM_TRA_EAC_20261015.zip
 
-SHA256 EXE: 24ac5fd256f0221fac1cdef2cbe0282f3fda9d49170d6939141f7b4ab392e4e2
+SHA256 EXE: acbdd0a092653f6f97177afdd0ab36327677c64b1dff180eb6327b554c9a75ec
