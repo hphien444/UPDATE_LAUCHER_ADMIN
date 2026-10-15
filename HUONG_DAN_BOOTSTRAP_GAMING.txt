@@ -1,11 +1,15 @@
 WESTSIDE ADMIN - BO KHOI CHAY GIAO DIEN GAMING
 
-Chi can gui WESTSIDE_ADMIN_BOOTSTRAP_GAMING_R2_20261015.exe sang may khac.
+Chi can gui WESTSIDE_ADMIN_BOOTSTRAP_GAMING_R3_20261015.exe sang may khac.
 Mo EXE: giao dien WESTSIDE hien tien trinh tai, kiem tra SHA256, giai nen va mo launcher.
 Khong chay CMD. Khong can gui ZIP hay thu muc kem theo EXE.
 Bo client day du: 297.990.800 byte; tai tu GitHub qua HTTPS.
 Cac lan sau: kiem tra va dung lai bo client da cai, khong tai lai neu tep khop.
-Ban R2: cho cua so launcher that hien ra moi ket thuc bootstrap.
+Ban R3: them chan doan rieng cho loi khoi dong, khong chi bao ma thoat1.
+Neu van loi, bam Sao chep loi va dan bao cao cho nguoi ho tro.
+Bao cao chi gom su kien va ma so da loc; khong sao chep token/log tho.
+Nhan dien them native .app va dua hop thoai chon GTA/loi cua client ra truoc.
+Chi ket thuc bootstrap khi cua so launcher that hien ra.
 Neu launcher da chay, dua cua so hien co ra truoc, khong mo trung.
 Lan dau launcher con tai cache GTA V hop le rieng (co the khoang 1,9 GB).
 Neu launcher dung som, giu thong bao loi va nhat ky, khong tu bao thanh cong.
@@ -22,6 +26,7 @@ VI TRI
 Log: %LOCALAPPDATA%\WESTSIDE_ADMIN_EAC\bootstrap-gui-*.log
 
 PHAM VI
+Ban nay chua xac dinh/xac nhan sua xong loi exit1 tren may khach.
 Ban nay tai nguyen bo EAC TEST hien co; khong tuyen bo da fix Epic/token/Untrusted hoac da xac minh EAC bao ve gameplay. Epic van co the yeu cau dang nhap.
 Day la bo tai full theo phien ban da duyet, khong thay metadata native updater production.
 Khong tu lay ban runtime moi trong tuong lai ngoai goi da ghim.
@@ -29,4 +34,4 @@ Khong tu lay ban runtime moi trong tuong lai ngoai goi da ghim.
 LINK BO CLIENT FULL
 https://github.com/hphien444/UPDATE_LAUCHER_ADMIN/releases/download/westside-admin-full-eac-diagnostics-20261015/WESTSIDE_ADMIN_BOOTSTRAP_FULL_KEM_KIEM_TRA_EAC_20261015.zip
 
-SHA256 EXE: c38ccb83be64b11f81a0a7398081a86ab967851eb95b1a68ac7390635e1b88b6
+SHA256 EXE: 24ac5fd256f0221fac1cdef2cbe0282f3fda9d49170d6939141f7b4ab392e4e2
