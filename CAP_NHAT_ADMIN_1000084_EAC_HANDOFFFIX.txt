@@ -1,0 +1,30 @@
+WESTSIDE CITY ADMIN 1000084 - Sua early-child-handoff (23/10/2026)
+
+Kenh production: fivereborn_admin. Dong WESTSIDE, mo lai launcher ADMIN de cap
+nhat. Bootstrap, manifest 440 runtime va catalog EAC da ky phat hanh dong bo.
+Bootstrap chinh thuc: WESTSIDE CITY ADMIN.exe tai thu muc goc repo.
+
+Da tai hien chinh xac early-child-handoff / Windows13 tren ban1000083 khi
+SteamChild sao chep tu GAME va chay -steamparent. Helper Steam khong phai GAME
+nhung truoc day bi yeu cau nonce ban giao EAC cua GAME truoc khi den Steam PreInit.
+
+Ban1000084 nhan dien DUNG duong dan helper va mot tham so Steam hop le:
+- Helper chuyen den Steam PreInit de xu ly/thoat; khong chiem gamePid.
+- Neu callback Steam khong ket thuc helper, sticky tu choi ngay; khong nap GAME.
+- GAME van bat buoc nonce, IPC, hinh anh, parent, moi truong va catalog EAC.
+- Config thieu/tat va GAME thieu marker co ma loi rieng; khong bo qua bao ve.
+- Giu sua1000083: bo cai EAC chinh thuc va sua GAME cache theo SHA-256.
+- Giu OpenID WESTSIDE, pure2 mac dinh, camera, whitelist, Discord, UI VN/SG, IPC.
+
+Release|x64; 15 bo test qua. Da test ban da ky bang updater noi bo1000083->84:
+441/441 file khop; mo cua so GAME; EAC loaded in-game301.
+Chay lai ca -steamparent va -steamchild bang GAME-derived helper: deu thoat0,
+khong hop loi early-child-handoff; GAME duoc bao ve tiep tuc chay.
+May test khong bat ung dung Steam, chua test giao dien Rich Presence voi Steam.
+CHUA xac nhan truc tiep may khach da gui anh loi; can mo lai de nhan ban84.
+
+Live deployment dc4e65957c6046f0b83a09d14614ba23, enforce=false (chi ghi log).
+Khong sua VPS/backend/server/TrustedServer. Chua xac nhan RemoteAuth end-to-end.
+Khong tat EAC, SmartScreen hay antivirus. Co the hoi UAC bo cai EAC lan dau.
+Catalog EAC da ky/verify/list439 muc; EXE chua co chu ky Authenticode.
+Khong kem GTA/RPF, log/dump/screenshot, token, secret server hay khoa ky.
