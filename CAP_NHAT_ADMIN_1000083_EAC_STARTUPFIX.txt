@@ -1,0 +1,29 @@
+WESTSIDE CITY ADMIN 1000083 - Sua khoi dong EAC (23/10/2026)
+
+Kenh production: fivereborn_admin. Dong WESTSIDE va mo lai launcher ADMIN de
+cap nhat tu 1000082 hoac cu hon. Bootstrap, manifest day du 440 file runtime
+va catalog EAC da ky duoc phat hanh dong bo. File khong doi duoc dung lai.
+File bootstrap chinh thuc: WESTSIDE CITY ADMIN.exe o thu muc goc repo.
+WESTSIDE_ADMIN_BOOTSTRAP_GAMING.exe cu khong phai bootstrap production dot nay.
+
+- Kiem tra dich vu EAC cho product WESTSIDE bang bo cai chinh thuc ghim hash.
+- Neu chua cai: verify-and-install; Windows co the hoi quyen UAC cua bo cai
+  Easy Anti-Cheat. Da cai thi khong cai lai. Khong reset/uninstall dich vu chung.
+- Sua cache GAME theo SHA-256, khong chi tin kich thuoc/timestamp.
+- Loi khoi dong hien stage va ma Windows/EAC; khong log token hay secret.
+- Giu OpenID WESTSIDE, mac dinh pure 2, camera, whitelist, Discord, UI VN/SG va IPC.
+
+Live deployment dc4e65957c6046f0b83a09d14614ba23. enforce=false, chi ghi log.
+Khong sua/cai module server, TrustedServer, VPS hay backend. Chua xac nhan
+RemoteAuth/EAC end-to-end; EOS Connect login khong thay the xac thuc bao ve.
+
+Release|x64; 14 bo test qua. Da thu updater noi bo1000082 ->1000083,
+441/441 file khop va hai lan khoi dong that den giao dien. EAC log thanh cong
+301, successfully loaded in-game. Lan hai chu dong tao GAME cache sai byte,
+cung kich thuoc va timestamp moi hon; launcher tu sua va khoi dong thanh cong.
+
+Chua kiem thu truc tiep may da gui anh loi, va chua thu cai dich vu/UAC tren
+Windows sach (nhanh nay test mo phong). Neu van loi, gui anh MA LOI cu the;
+khong gui token/mat khau. Khong tat EAC, SmartScreen hay antivirus.
+EXE chua ky Authenticode; catalog EAC duoc ky/verify/list 439 muc.
+Khong kem GTA/RPF, crash dump, log, JWT, secret server hay khoa ky.
