@@ -1,0 +1,27 @@
+WESTSIDE CITY ADMIN 1000082 - OpenID WESTSIDE, mac dinh pure 2 (23/10/2026)
+
+Native updater production: fivereborn_admin. Mo lai launcher ADMIN dang cai de
+cap nhat tu 1000081 hoac cu hon. Bootstrap va manifest day du 440 file runtime
+duoc phat hanh dong bo voi catalog EAC da ky. File khong doi duoc dung lai.
+Neu da cai bootstrap THU cung so 1000082, can thay bang EXE chinh thuc ben duoi.
+
+File bootstrap native moi: WESTSIDE CITY ADMIN.exe tai thu muc goc repo.
+WESTSIDE_ADMIN_BOOTSTRAP_GAMING.exe la wrapper tai goi TEST 15/10 da ghim,
+khong phai file bootstrap production cua ban cap nhat nay.
+
+EAC deployment Live dc4e65957c6046f0b83a09d14614ba23; enforce=false (chi ghi log).
+Dang nhap EOS Connect bang tai khoan WESTSIDE qua OpenID; khong hoi dang nhap
+Epic Account. Tu gia han token qua HTTPS; khong luu token vao log/dong lenh.
+OpenID provider da gan sandbox Live. Mac dinh pure 2 ngay lan mo game dau;
+giu ban sua IPC/luong mo game EAC. Giu camera, whitelist, UI VN/SG va icon.
+Catalog da ky lai/verify/list 439 muc; khong kem GTA/RPF, log, server secret hay khoa ky.
+
+Can Windows x64, GTA V hop le, Internet va tai khoan WESTSIDE dang nhap launcher.
+EAC van co the yeu cau cai/cap nhat dich vu; khong vo hieu hoa cac kiem tra EAC.
+EXE chua ky Authenticode; khong tat SmartScreen/antivirus de bo qua canh bao.
+Chi catalog EAC duoc ky. Ban nay khong kem/cai module server; khong tu kick.
+4 bo test C++ da qua. Da cap nhat tu 1000081 tren may thu, vao game pure 2,
+dang nhap va gia han OpenID that thanh cong; 441/441 file khop ban build.
+Server chua hoan tat bat tay EAC: KHONG tuyen bo RemoteAuth/bao ve end-to-end.
+Giu enforce=0, chi ghi log. Khong thay doi VPS/server production.
+OpenID co the tao PUID moi so voi Epic; chua di chuyen lien ket/sanction PUID cu.
