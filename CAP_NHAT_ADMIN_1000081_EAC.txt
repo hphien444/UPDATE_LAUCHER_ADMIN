@@ -1,0 +1,20 @@
+WESTSIDE CITY ADMIN 1000081 - EAC Live, pure relaunch fix (23/10/2026)
+
+Native updater production: fivereborn_admin. Mo lai launcher ADMIN dang cai de
+cap nhat tu 1000080; bootstrap va day du 440 file runtime duoc cap nhat cung luc.
+May da cai ban THU 1000081 cu can thay bootstrap moi vi so phien ban khong doi.
+
+File bootstrap native moi: WESTSIDE CITY ADMIN.exe tai thu muc goc repo.
+WESTSIDE_ADMIN_BOOTSTRAP_GAMING.exe la wrapper tai goi TEST 15/10 da ghim,
+khong phai file bootstrap production cua ban cap nhat nay.
+
+EAC deployment Live dc4e65957c6046f0b83a09d14614ba23; enforce=false (chi ghi log).
+Giu camera, whitelist mod, UI gaming VN/SG, an dia chi va icon trong suot.
+Sua -pure_2, -switchcl:event va URI westsideadmin://connect/ dung allowlist30130.
+Catalog da ky lai/verify/list 439 muc; khong kem GTA/RPF, log, server secret hay khoa ky.
+
+Can Windows x64, GTA V hop le, Internet. Epic/EAC co the yeu cau dang nhap/cai dich vu.
+EXE chua ky Authenticode; khong tat SmartScreen/antivirus de bo qua canh bao.
+Chi catalog EAC duoc ky. Ban nay khong kem/cai module server; khong tu kick.
+14 bo kiem thu offline da qua. Chua kiem thu lai gameplay pure2 va RemoteAuth
+end-to-end cua revision nay. Khong tuyen bo production EAC da hoat dong day du.
