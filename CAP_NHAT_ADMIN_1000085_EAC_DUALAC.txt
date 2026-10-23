@@ -1,0 +1,23 @@
+WESTSIDE CITY ADMIN 1000085 - EAC + anticheat DLL, tat anti-dump (23/10/2026)
+
+Da tai hien master-game-already-set / Windows13 tren1000084 voi mapping giu PID GAME da chet.
+Sua thu hoi PID da thoat, mutex theo IPC, claim nguyen tu va don slot sau GAME thoat.
+Khong xoa trang thai GAME con song; khong bo qua EAC.
+
+Bat lai citizen-anticheat.dll:22 kiem tra, deep scan, heartbeat/report, whitelist va screenshot policy.
+EAC va legacy deu duoc initialize/tick/shutdown; khong nuot event __ac_challenge/__ac_ss_req.
+Tat anti-dump guard, CheckAntiDump va xoa PE header; khong tat cac scanner khac.
+Chi chup khi co bang chung nghi van hop le; giu cooldown va gioi han theo phien.
+
+Release x64;21 bo test PASS. Catalog EAC sign/verify/list439 muc.
+Updater noi bo84->85:441/441 file khop, pure2, GAME window, EAC loaded301,
+va legacy InitScanner/InitProcessDeepScan thanh cong trong cung GAME.
+Retained stale mapping + restart, 2 Steam helper modes deu PASS.
+Giu camera, whitelist mod, discord, UI VN/SG va updater cu.
+
+CHUA test may khach gui loi/UAC may sach/legacy quet khi da vao server/RemoteAuth end-to-end.
+Khong khang dinh da xac minh moi tinh huong hay Epic chung nhan hai anticheat tuong thich.
+Live dc4e65957c6046f0b83a09d14614ba23; EAC enforce=0. Khong sua VPS/backend/Portal.
+FXServer37692+module EAC la goi UNG VIEN rieng; khong upload server hay secret vao repo client.
+Khong kem GTA/RPF/log/dump/screenshot/JWT/secret server/khoa ky.
+Dong ADMIN, mo lai de nhan85. Khong tat antivirus/SmartScreen/EAC.
