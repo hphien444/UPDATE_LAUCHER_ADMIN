@@ -1,0 +1,29 @@
+WESTSIDE CITY ADMIN 1000086 - EAC AUTOREPAIR (24/10/2026)
+
+Tu sua cau hinh/file EAC thieu hoac hong truoc khi hien loi cuoi cung.
+Updater-before-EAC; dung runtime root khi EXE o trong .app.
+52 SHA-256 repair pins, bounded retry, hash verification, atomic replacement.
+Sticky preinit: sua config mot lan o master cung root; khong thay DLL dang load.
+Pure handoff: consume event truoc EOS wrapper; giu URI/pure/whitelist.
+Khong ha runtime/catalog khi metadata remote cu hon EXE local.
+Khong bypass EAC; mat mang/hash sai/lock keo dai van dung sau retry.
+
+441 file: MAIN + 440 runtime. Chi MAIN, sticky.dll va base.bin doi so voi1000085.
+438 file con lai giu hash; camera, whitelist mod, UI VN/SG, Discord va IPC giu nguyen.
+EAC + anticheat DLL legacy song song; chi anti-dump/PE wipe OFF.
+DLL legacy van ghi build1000085-dual-ac; MAIN/sticky la1000086.
+Live/OpenID/enforce=0 khong doi; catalog EAC439 member da ky va verify.
+
+17 suite PASS. 6 ca native local PASS: repair, upgrade85->86, pure-missing,
+nested EXE, late preinit recovery, stale-head retry. EAC301 + InitScanner/WMI
+cung GAME PID; 441 hash dung; game window on dinh it nhat15s.
+Lan stale-head dau timeout cho game window; retry cung binary PASS.
+Nguyen nhan lan timeout CHUA xac minh; khong tuyen bo moi lan deu PASS.
+CHUA test may khach bao loi, Windows sach, pure switch do server that,
+server RemoteAuth/0r_AC hay gameplay dai han.
+
+Dong va mo lai ADMIN de nhan update. Neu EXE cu dung truoc updater,
+tai WESTSIDE CITY ADMIN.exe moi tu repo nay va thay EXE cu khi client da dong.
+Moi payload runtime va catalog duoc phat hanh cung metadata1000086.
+Khong doi CITY/TEST/VPS/backend/Portal. Khong kem secret/key/log/dump/GTA cache.
+Rollback chi ha head khong ha EXE; can MAIN/runtime/catalog dong bo hoac forward-fix.
