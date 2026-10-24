@@ -1,0 +1,27 @@
+WESTSIDE CITY ADMIN 1000087 - ReShade pure2 (24/10/2026)
+
+Pure>=2 cho phep ReShade6.8.0 Standard x64 theo SHA256 chinh xac.
+SHA256: b2945c29e7095491a901746b400e58db9b1592ab092bacf2a888ce37f02d08da
+Full Add-on/x86/DLL gia hay sua hash khong duoc chap nhan.
+Ban Standard khong nap external add-on; co tinh nang add-on noi bo gioi han.
+ReShade tuy chon, khong tu cai vao may nguoi choi.
+Cai DLL Standard x64 vao WESTSIDE CITY.app/plugins/dxgi.dll khi client da dong.
+Khong dung DLL version khac; lay tu installer chinh thuc reshade.me6.8.0 Standard.
+Pure0/1 giu policy cu. Pure2/EAC/legacy scanner van bat; anti-dump/PE wipe OFF.
+
+441 file: MAIN+440 runtime.4 file doi so voi1000086: MAIN, graphics, anticheat, base.bin.
+437 file giu hash: sticky/camera/whitelist mod/input/GAME/UI/Discord va config.
+Graphics giu FiveAdmin IPC; MAIN/AC giu IPC baseline; catalog439 member da ky/verify.
+52 repair pins khop runtime moi; OpenID/deployment Live/enforce=0 khong doi.
+Marker scanner legacy van1000085-dual-ac, khong phai version MAIN.
+
+17 regression suite + exact ReShade hash/loader tests PASS.
+3 ca native PASS: upgrade86->87 co ReShade Standard; pure handoff tu choi Add-on;
+pinned auto-repair khong ReShade. EAC301 loaded-in-game va InitScanner/WMI
+cung GAME PID, pure2,441hash dung, cua so game on dinh15s moi ca.
+CHUA test serverRemoteAuth/0r_AC/login EOS, gameplay dai han, Windows sach,
+may khach khac hay pure switch do server that. Khong tuyen bo Epic chung nhan.
+
+Dong/mo lai ADMIN de update. Neu bootstrap cu khong chay: tai EXE moi tu repo nay.
+Khong doi CITY/TEST/VPS/backend/Portal. Khong kem key/token/log/dump/GTA cache.
+Rollback head khong ha EXE; can runtime/MAIN/catalog dong bo hoac forward-fix.
