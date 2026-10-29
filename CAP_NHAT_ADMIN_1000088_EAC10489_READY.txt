@@ -1,0 +1,1 @@
+ADMIN1000088: legacy EAC diagnostic compatibility preparation. Existing Live deployment and authentication unchanged. Shared Live EAC10489 has NOT been activated by this package.
