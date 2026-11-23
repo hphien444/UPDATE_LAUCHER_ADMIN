@@ -1,0 +1,4 @@
+WESTSIDE CITY ADMIN 1000093 - Dong bo EAC/whitelist voi CITY
+May duoc duyet (IP/HWID/Discord) choi che do tuong thich (EAC tat, AC cu bat) tren moi may chu ADMIN;
+may chua duyet van chay EAC nhu truoc. Man hinh chon may chu khong hien so nguoi choi.
+Giu nguyen duong truyen VN/SG va APEX.
