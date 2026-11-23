@@ -1,0 +1,1 @@
+ADMIN 1000094: APEX uses apex-edge.westsidecity.xyz:14943. Server selection does not show player counts. Preserves ADMIN 1000093 whitelist and EAC behavior.
