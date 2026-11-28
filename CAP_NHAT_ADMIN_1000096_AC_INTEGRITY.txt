@@ -1,0 +1,9 @@
+WESTSIDE CITY ADMIN 1000096 — Kiểm tra tính toàn vẹn của anticheat
+
+Bản cập nhật dành riêng cho launcher ADMIN, tiếp nối bản 1000095.
+
+- Anticheat chỉ dùng kết quả kiểm tra vùng mã khi quá trình đọc hoàn tất. Thiếu dữ liệu không được coi là sự cố can thiệp, cũng không được coi là đã kiểm tra thành công.
+- Khi đối chiếu dấu hiệu liên quan đến overlay, anticheat kiểm tra đó có còn là cùng một lần chạy của ứng dụng hay không. Chỉ có overlay không phải là bằng chứng gian lận.
+- Cập nhật launcher, thư viện anticheat và danh mục kiểm tra tệp Easy Anti-Cheat tương ứng. Không thêm trình điều khiển, chụp màn hình hoặc chính sách xử phạt mới.
+
+Nếu đang dùng bản ADMIN, hãy thoát game và mở lại launcher để kiểm tra cập nhật. Không cần tự thay tệp DLL. Bản CITY và TEST không thay đổi.
