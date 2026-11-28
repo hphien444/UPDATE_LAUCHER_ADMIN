@@ -1,0 +1,8 @@
+WESTSIDE CITY ADMIN 1000095 - Cửa sổ xác minh khởi động
+
+Trong lúc chờ, bạn có thể kéo cửa sổ, dùng nút X hoặc nhấn Esc để mở
+hộp xác nhận. Chọn “Tiếp tục chờ” để ở lại, hoặc “Thoát launcher” để hủy.
+Cửa sổ cũng vẽ lại ít hơn và điều chỉnh nút khi đổi tỷ lệ hiển thị.
+
+Chỉ thay WESTSIDE CITY ADMIN.exe. Giữ nguyên các máy chủ của ADMIN,
+đường kết nối APEX, chính sách whitelist, Easy Anti-Cheat và runtime 1000094.
